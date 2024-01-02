@@ -1,0 +1,167 @@
+@charset "utf-8";
+@import url("css1.css");
+body {
+	display: grid;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: lavenderblush !important;
+}
+
+.header{
+	/*width: 1366px;*/	
+    /*background-color: azure;*/
+	height: 125px;
+}
+.header .h-left{
+	width: 200px;
+	height: 88px;
+	float: left;
+	margin-top: 25px;
+    margin-left: 50px;
+}
+.header .h-right{
+	/*width: 650px;*/
+	height: 90px;
+	float: right;
+	margin-top: 25px;
+    margin-right: 50px;
+}
+.btn-read-more {
+	color: black;
+	margin: 10px;
+	padding: 10px;
+	border: solid blue 2px;
+}
+.about-description {
+    text-align: justify;
+}
+
+.h-right ul{
+	display: flex
+}
+.h-right li{
+	margin: 10px;
+	list-style: none;
+}
+.h-right li:hover a {
+	font-weight: 700;
+}
+
+.h-right a{
+	text-decoration: none;
+	color: black;
+}
+.content .banner{
+	/*width: 1366px;*/
+	margin-bottom: 50px;
+}
+.card-text {
+	text-align: justify;
+}
+.btn-danger {
+	background-color: chocolate !important;
+    border-color: orange !important;
+}
+.about h1{
+	text-align: center;
+}
+.about .about-mid{
+	width: 1366px;
+	display: flex;
+}
+
+.about .about-mid img {
+	margin-right: 20px;
+}
+
+.about-mid .a-right{
+	width: 700px;
+	color: #777777;
+}
+.a-right h2{
+	text-align: left;
+		color: black;
+	font-size: 40px;
+}
+.a-right h3{
+	text-align: left;
+		color: #777777;
+	font-size: 18px;
+}
+.a-right h4{
+	text-align: left;
+		color: #777777;
+	font-size: 18px;
+}
+.a-right p{
+	font-size: 20px;
+	color: #777777;
+	width: 150px;
+	border: solid #76DAFF;
+	height: 30px;
+	text-align: center;
+	padding-top: 8px;
+	font-weight: bolder;
+	transition: 0.3s all
+}
+.a-right p:hover {
+	color: pink;
+	cursor: pointer;
+	border: solid #999999;
+	font-weight: 700;
+}
+.about-bottom{
+	display: flex;
+	justify-content: center;
+}
+.about-bottom .a-items{
+	width: 350px;
+	margin: 0px 15px;
+	color: #777777;
+	text-align: center;
+}
+.about-bottom h2{
+	color: black;
+	text-align: left;
+	font-size: 30px;
+}
+.about-bottom p{
+	font-size: 20px;
+	text-align: left;
+}
+
+.footer {
+	border-top: 1px solid gray;
+	padding: 10px 0;
+}
+
+.about-bottom .a-items .a-thumbnail {
+	width: 100%;
+}
+
+.about-bottom .a-items .a-thumbnail img {
+	width: 100%;
+}
+
+.item-info {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.item-info .item-name {
+	font-size: 30px;
+	margin-top: 0;
+}
+
+.item-desc {
+	padding: 0 20px;
+}
+
+.item-desc p {
+	max-width: 800px;
+}
+
+.item-img img {
+	width: 500px;
+	height: 500px;
+}
